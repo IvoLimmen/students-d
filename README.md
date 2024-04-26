@@ -9,17 +9,13 @@ Just a simple application to see how to build something in D.
 ## Build
 
 ```
-dmd app.d
+dub build
 ```
 
 Run it with:
 
 ```
-dmd -run app.d
-```
-Or use the build executable:
-```
-./app
+../build/students-d
 ```
 
 Type `help` for the list of commands.
@@ -41,4 +37,3 @@ The bad:
 The ugly:
 
   * Documentation is not really clear, some things where really difficult to find. The fact that splitter() returns a special type and not an array was unclear to me.
-  * Also documentation: I could not understand how to split up the application into multi files and 'import' them into the app.d so I made it into one file.

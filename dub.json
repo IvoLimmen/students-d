@@ -1,0 +1,11 @@
+{
+	"authors": [
+		"Ivo Limmen"
+	],
+	"copyright": "Copyright © 2024, Ivo Limmen",
+	"description": "Simple application written in D",
+	"license": "Unlicense",
+	"name": "students-d",
+  "sourcePaths": ["source"],
+  "targetPath": "build"
+}
